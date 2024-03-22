@@ -9,3 +9,6 @@ class Boisson:
     def prochain_jour(self):
         self.peremption -= 1
 
+boisson = Boisson(350, 14)
+print(boisson)
+
